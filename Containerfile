@@ -1,5 +1,6 @@
 FROM python:3.12
 COPY . /app
 WORKDIR /app
-RUN pip install -r requirements.txt
+RUN ls -al
+RUN pip install -r requirements
 CMD ["python_basic_template"]
